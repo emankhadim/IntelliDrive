@@ -55,3 +55,19 @@ Ensure you have Python installed. You can download it from [Python.org](https://
 ```sh
 git clone https://github.com/emankhadim/IntelliDrive.git
 cd IntelliDrive
+
+#### Install Dependencies:
+
+'''sh 
+pip install -r requirements.txt
+#### Run the Streamlit Application:
+
+'''sh
+streamlit run app.py
+
+#### Use the Application:
+
+Open your web browser and go to the URL provided by Streamlit (usually http://localhost:8501).
+Use the sidebar to input real-time sensor data (Acceleration and Gyroscope values).
+The application will predict the driving behavior and display the result.
+Visualize historical data through the scatter matrix plot provided in the application.
