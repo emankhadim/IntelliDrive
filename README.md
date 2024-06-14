@@ -9,8 +9,6 @@ IntelliDrive is a machine learning project aimed at classifying driving behavior
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -56,11 +54,12 @@ Ensure you have Python installed. You can download it from [Python.org](https://
 git clone https://github.com/emankhadim/IntelliDrive.git
 cd IntelliDrive
 ```
-```sh
+
 ## Install Dependencies:
 
-
+```sh
 pip install -r requirements.txt
+```
 ## Run the Streamlit Application:
 
 ```sh 
