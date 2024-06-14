@@ -57,17 +57,17 @@ git clone https://github.com/emankhadim/IntelliDrive.git
 cd IntelliDrive
 ```
 ```sh
-#### Install Dependencies:
+## Install Dependencies:
 
 
 pip install -r requirements.txt
-#### Run the Streamlit Application:
+## Run the Streamlit Application:
 
-'''sh
+```sh 
 streamlit run app.py
 ```
 
-##Use the Application:
+## Use the Application:
 
 Open your web browser and go to the URL provided by Streamlit (usually http://localhost:8501).
 Use the sidebar to input real-time sensor data (Acceleration and Gyroscope values).
