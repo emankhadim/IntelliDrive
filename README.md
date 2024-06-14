@@ -71,3 +71,9 @@ Open your web browser and go to the URL provided by Streamlit (usually http://lo
 Use the sidebar to input real-time sensor data (Acceleration and Gyroscope values).
 The application will predict the driving behavior and display the result.
 Visualize historical data through the scatter matrix plot provided in the application.
+
+Run the Streamlit Application:
+
+sh
+Copy code
+streamlit run app.py
